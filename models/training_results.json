@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-11-03T10:53:15.252149",
+  "dataset": {
+    "n_train_samples": 517754,
+    "n_features": 109,
+    "target_mean": 0.3523774031683,
+    "target_std": 0.16641697063802513,
+    "target_min": 0.0,
+    "target_max": 1.0
+  },
+  "cross_validation": {
+    "method": "KFold",
+    "n_folds": 5,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "model_performance": {
+    "catboost": {
+      "cv_rmse": 0.056231211107242655,
+      "cv_mae": 0.043720745301355585,
+      "cv_r2": 0.8858279889968176
+    },
+    "lightgbm": {
+      "cv_rmse": 0.05625504639917558,
+      "cv_mae": 0.04371126307832264,
+      "cv_r2": 0.8857311779939377
+    },
+    "ensemble": {
+      "cv_rmse": 0.056201490336504616,
+      "cv_mae": 0.04368569049409355,
+      "cv_r2": 0.8859486473765654
+    }
+  },
+  "ensemble_weights": {
+    "catboost": 0.5,
+    "lightgbm": 0.5
+  },
+  "prediction_statistics": {
+    "train_predictions": {
+      "mean": 0.352378290592558,
+      "std": 0.15655908484891543,
+      "min": 0.011293050288569955,
+      "max": 0.8806732148615641
+    }
+  }
+}

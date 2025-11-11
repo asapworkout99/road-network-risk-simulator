@@ -1,0 +1,768 @@
+{
+  "method": "weighted_ensemble_importance",
+  "features": [
+    {
+      "rank": 1,
+      "feature": "risk_family_mean",
+      "importance": 0.1859420178916614,
+      "catboost_importance": 1.5625709013305307,
+      "lightgbm_importance": 145134.26037135432
+    },
+    {
+      "rank": 2,
+      "feature": "lighting_encoded",
+      "importance": 0.09312596128088815,
+      "catboost_importance": 14.331805188280022,
+      "lightgbm_importance": 17490.610317425977
+    },
+    {
+      "rank": 3,
+      "feature": "speed_curv_light",
+      "importance": 0.08798530185650034,
+      "catboost_importance": 0.15452354874408566,
+      "lightgbm_importance": 71058.25999053745
+    },
+    {
+      "rank": 4,
+      "feature": "lighting_mean_risk",
+      "importance": 0.07994952003730825,
+      "catboost_importance": 12.905588405794475,
+      "lightgbm_importance": 12565.03581707913
+    },
+    {
+      "rank": 5,
+      "feature": "lighting_time_encoded",
+      "importance": 0.06509126224859348,
+      "catboost_importance": 10.863944881261643,
+      "lightgbm_importance": 8776.323585055907
+    },
+    {
+      "rank": 6,
+      "feature": "total_risk_factors_pow3",
+      "importance": 0.03936621511345126,
+      "catboost_importance": 0.02221199406751862,
+      "lightgbm_importance": 31983.914364120603
+    },
+    {
+      "rank": 7,
+      "feature": "speed_cat_high",
+      "importance": 0.02860673916664512,
+      "catboost_importance": 5.690288453817893,
+      "lightgbm_importance": 126.53122002258897
+    },
+    {
+      "rank": 8,
+      "feature": "speed_bin",
+      "importance": 0.02640319701302639,
+      "catboost_importance": 5.280607498379934,
+      "lightgbm_importance": 0.12997299432754517
+    },
+    {
+      "rank": 9,
+      "feature": "speed_limit_pow2",
+      "importance": 0.025451780731582604,
+      "catboost_importance": 5.06911445687442,
+      "lightgbm_importance": 86.53543382883072
+    },
+    {
+      "rank": 10,
+      "feature": "speed_limit_squared",
+      "importance": 0.01933606675200293,
+      "catboost_importance": 3.717421605673808,
+      "lightgbm_importance": 610.2289391453378
+    },
+    {
+      "rank": 11,
+      "feature": "speed_family_max",
+      "importance": 0.01783677188961201,
+      "catboost_importance": 3.5673543779224044,
+      "lightgbm_importance": 0.0
+    },
+    {
+      "rank": 12,
+      "feature": "bad_weather_x_curvature",
+      "importance": 0.01654044076759095,
+      "catboost_importance": 1.4740932923766104,
+      "lightgbm_importance": 7471.418004735577
+    },
+    {
+      "rank": 13,
+      "feature": "speed_limit",
+      "importance": 0.015312096826650764,
+      "catboost_importance": 2.5405647511168987,
+      "lightgbm_importance": 2125.9568623111118
+    },
+    {
+      "rank": 14,
+      "feature": "bad_weather_x_curvature.1",
+      "importance": 0.015295349159805662,
+      "catboost_importance": 1.7798829026147893,
+      "lightgbm_importance": 5211.214304816356
+    },
+    {
+      "rank": 15,
+      "feature": "speed_limit_log",
+      "importance": 0.014975906865727669,
+      "catboost_importance": 2.884212069096378,
+      "lightgbm_importance": 452.0721806874499
+    },
+    {
+      "rank": 16,
+      "feature": "num_reported_accidents",
+      "importance": 0.014808740533375567,
+      "catboost_importance": 1.8999533117156477,
+      "lightgbm_importance": 4325.591590511147
+    },
+    {
+      "rank": 17,
+      "feature": "speed_x_curvature_x_speed_curv_light",
+      "importance": 0.013241675618694002,
+      "catboost_importance": 0.04746036823521927,
+      "lightgbm_importance": 10595.57084267728
+    },
+    {
+      "rank": 18,
+      "feature": "curvature_dist_from_mean",
+      "importance": 0.012844819172046888,
+      "catboost_importance": 2.429183230982219,
+      "lightgbm_importance": 569.4450618626142
+    },
+    {
+      "rank": 19,
+      "feature": "curvature",
+      "importance": 0.012404174592759998,
+      "catboost_importance": 0.8393370383839557,
+      "lightgbm_importance": 6687.214384553299
+    },
+    {
+      "rank": 20,
+      "feature": "num_reported_accidents_quantile",
+      "importance": 0.012027643136357086,
+      "catboost_importance": 2.0494759895477457,
+      "lightgbm_importance": 1450.5046576119494
+    },
+    {
+      "rank": 21,
+      "feature": "total_risk_factors",
+      "importance": 0.011860901086464148,
+      "catboost_importance": 0.020045228261651168,
+      "lightgbm_importance": 9582.242610907408
+    },
+    {
+      "rank": 22,
+      "feature": "speed_dist_from_mean",
+      "importance": 0.011821526522103895,
+      "catboost_importance": 0.5898279557723208,
+      "lightgbm_importance": 7228.952650082734
+    },
+    {
+      "rank": 23,
+      "feature": "curvature_pow2",
+      "importance": 0.011002434579584905,
+      "catboost_importance": 2.2004780695284576,
+      "lightgbm_importance": 0.03603885043412447
+    },
+    {
+      "rank": 24,
+      "feature": "bad_weather_x_speed",
+      "importance": 0.010786500657794958,
+      "catboost_importance": 0.9064852999636028,
+      "lightgbm_importance": 5095.630664720084
+    },
+    {
+      "rank": 25,
+      "feature": "curvature_rank",
+      "importance": 0.010738489849636398,
+      "catboost_importance": 2.1322440713833775,
+      "lightgbm_importance": 62.95684806467034
+    },
+    {
+      "rank": 26,
+      "feature": "speed_family_std",
+      "importance": 0.010543166042226118,
+      "catboost_importance": 1.4369190605269477,
+      "lightgbm_importance": 2736.461963512993
+    },
+    {
+      "rank": 27,
+      "feature": "curvature_cubed",
+      "importance": 0.009806820139649291,
+      "catboost_importance": 1.7474079631413393,
+      "lightgbm_importance": 871.6246858446975
+    },
+    {
+      "rank": 28,
+      "feature": "curvature_squared",
+      "importance": 0.00868271803478594,
+      "catboost_importance": 1.1359972770433227,
+      "lightgbm_importance": 2446.535024205801
+    },
+    {
+      "rank": 29,
+      "feature": "speed_family_mean",
+      "importance": 0.008392110833025433,
+      "catboost_importance": 0.48306808941623414,
+      "lightgbm_importance": 4869.691929662076
+    },
+    {
+      "rank": 30,
+      "feature": "weather_x_curvature",
+      "importance": 0.007894695231514693,
+      "catboost_importance": 0.9619121066715506,
+      "lightgbm_importance": 2513.674538487685
+    },
+    {
+      "rank": 31,
+      "feature": "curvature_log1p",
+      "importance": 0.007865587957876403,
+      "catboost_importance": 1.5729287316198994,
+      "lightgbm_importance": 0.7693869273643941
+    },
+    {
+      "rank": 32,
+      "feature": "speed_curv_weather",
+      "importance": 0.00773938974745964,
+      "catboost_importance": 1.126106896186713,
+      "lightgbm_importance": 1718.2315546835162
+    },
+    {
+      "rank": 33,
+      "feature": "curvature_family_mean",
+      "importance": 0.007311332799186728,
+      "catboost_importance": 0.05250505873993022,
+      "lightgbm_importance": 5743.15538437551
+    },
+    {
+      "rank": 34,
+      "feature": "weather_encoded",
+      "importance": 0.007236249119970275,
+      "catboost_importance": 0.9766718235397515,
+      "lightgbm_importance": 1917.0636841579108
+    },
+    {
+      "rank": 35,
+      "feature": "speed_squared_x_curvature",
+      "importance": 0.006634158031251461,
+      "catboost_importance": 0.03333644391647169,
+      "lightgbm_importance": 5269.5038844785595
+    },
+    {
+      "rank": 36,
+      "feature": "bad_weather_x_speed_limit",
+      "importance": 0.005730877416505542,
+      "catboost_importance": 0.7744609254053713,
+      "lightgbm_importance": 1514.3089543641545
+    },
+    {
+      "rank": 37,
+      "feature": "total_risk_factors_pow2",
+      "importance": 0.005416720563722365,
+      "catboost_importance": 0.044296610086509404,
+      "lightgbm_importance": 4232.922558082864
+    },
+    {
+      "rank": 38,
+      "feature": "speed_cat_medium",
+      "importance": 0.004586733109303236,
+      "catboost_importance": 0.11498221132651301,
+      "lightgbm_importance": 3268.7113962207513
+    },
+    {
+      "rank": 39,
+      "feature": "weather_mean_risk",
+      "importance": 0.003492320698015685,
+      "catboost_importance": 0.6824216463759832,
+      "lightgbm_importance": 65.35469388589263
+    },
+    {
+      "rank": 40,
+      "feature": "accident_family_mean",
+      "importance": 0.0034347864121203886,
+      "catboost_importance": 0.34109745409830755,
+      "lightgbm_importance": 1408.9806919412258
+    },
+    {
+      "rank": 41,
+      "feature": "curvature_sqrt",
+      "importance": 0.003272578960079293,
+      "catboost_importance": 0.593394420049814,
+      "lightgbm_importance": 248.99923585227225
+    },
+    {
+      "rank": 42,
+      "feature": "extreme_risk",
+      "importance": 0.003004912919062619,
+      "catboost_importance": 0.000626521719688702,
+      "lightgbm_importance": 2445.759901846468
+    },
+    {
+      "rank": 43,
+      "feature": "accidents_per_speed",
+      "importance": 0.0028398809818236817,
+      "catboost_importance": 0.04326158929764643,
+      "lightgbm_importance": 2137.608041141706
+    },
+    {
+      "rank": 44,
+      "feature": "bad_weather",
+      "importance": 0.0025297086459342213,
+      "catboost_importance": 0.46535294458748094,
+      "lightgbm_importance": 165.3525767554529
+    },
+    {
+      "rank": 45,
+      "feature": "curvature_family_max",
+      "importance": 0.0019311001320391063,
+      "catboost_importance": 0.028226211202872428,
+      "lightgbm_importance": 1458.412721419154
+    },
+    {
+      "rank": 46,
+      "feature": "curvature_family_std",
+      "importance": 0.0019020349801602437,
+      "catboost_importance": 0.030864281510950907,
+      "lightgbm_importance": 1423.984213931486
+    },
+    {
+      "rank": 47,
+      "feature": "risk_family_max",
+      "importance": 0.0018330515995685754,
+      "catboost_importance": 0.027351279044281755,
+      "lightgbm_importance": 1382.0900810176972
+    },
+    {
+      "rank": 48,
+      "feature": "speed_x_curvature_squared",
+      "importance": 0.0018314741639769091,
+      "catboost_importance": 0.2741874185947628,
+      "lightgbm_importance": 375.231690889137
+    },
+    {
+      "rank": 49,
+      "feature": "total_risk_factors_x_speed_x_curvature",
+      "importance": 0.0013866183304748808,
+      "catboost_importance": 0.09966277881170174,
+      "lightgbm_importance": 723.7636157602537
+    },
+    {
+      "rank": 50,
+      "feature": "curvature_to_signs",
+      "importance": 0.0012071091526853531,
+      "catboost_importance": 0.04580382347335181,
+      "lightgbm_importance": 796.9182089837559
+    },
+    {
+      "rank": 51,
+      "feature": "pca_1_pow2",
+      "importance": 0.0011673475968147554,
+      "catboost_importance": 0.2187614504959642,
+      "lightgbm_importance": 59.91845063256915
+    },
+    {
+      "rank": 52,
+      "feature": "speed_x_curvature",
+      "importance": 0.0011531119912984466,
+      "catboost_importance": 0.12000684557284597,
+      "lightgbm_importance": 450.6310510782059
+    },
+    {
+      "rank": 53,
+      "feature": "accident_rate",
+      "importance": 0.0010694835530302652,
+      "catboost_importance": 0.05693103972876041,
+      "lightgbm_importance": 639.4544305255113
+    },
+    {
+      "rank": 54,
+      "feature": "accident_intensity",
+      "importance": 0.0010555188579729475,
+      "catboost_importance": 0.011402761967573411,
+      "lightgbm_importance": 813.551744611992
+    },
+    {
+      "rank": 55,
+      "feature": "curv_bin",
+      "importance": 0.001025305155978713,
+      "catboost_importance": 0.201491463472488,
+      "lightgbm_importance": 14.541879653930664
+    },
+    {
+      "rank": 56,
+      "feature": "speed_to_accidents",
+      "importance": 0.000997733872066498,
+      "catboost_importance": 0.03323161978549723,
+      "lightgbm_importance": 677.5428149090203
+    },
+    {
+      "rank": 57,
+      "feature": "poor_vis_x_curvature",
+      "importance": 0.0009822864698746593,
+      "catboost_importance": 0.03506941888685259,
+      "lightgbm_importance": 657.469822422805
+    },
+    {
+      "rank": 58,
+      "feature": "speed_squared_x_curvature_x_pca_1",
+      "importance": 0.0007399467942958357,
+      "catboost_importance": 0.05963680700601403,
+      "lightgbm_importance": 359.93494892842136
+    },
+    {
+      "rank": 59,
+      "feature": "road_signs_present",
+      "importance": 0.0007246589486789677,
+      "catboost_importance": 0.002839809819136193,
+      "lightgbm_importance": 578.8612605037633
+    },
+    {
+      "rank": 60,
+      "feature": "pca_1",
+      "importance": 0.0006122402861201584,
+      "catboost_importance": 0.06478468348892442,
+      "lightgbm_importance": 234.9118734553631
+    },
+    {
+      "rank": 61,
+      "feature": "no_signs_and_unsafe",
+      "importance": 0.000590862252089453,
+      "catboost_importance": 0.008372008074900295,
+      "lightgbm_importance": 447.3104146751575
+    },
+    {
+      "rank": 62,
+      "feature": "safety_infrastructure_x_curvature",
+      "importance": 0.0005518116527125051,
+      "catboost_importance": 0.06121078599003464,
+      "lightgbm_importance": 200.23596723781156
+    },
+    {
+      "rank": 63,
+      "feature": "unsafe_conditions",
+      "importance": 0.0005179237704487712,
+      "catboost_importance": 0.011150607602300041,
+      "lightgbm_importance": 376.5627488666214
+    },
+    {
+      "rank": 64,
+      "feature": "risk_family_std",
+      "importance": 0.00048285066304245633,
+      "catboost_importance": 0.05027863890930613,
+      "lightgbm_importance": 188.58455212623176
+    },
+    {
+      "rank": 65,
+      "feature": "risk_score_squared",
+      "importance": 0.0004790359643353545,
+      "catboost_importance": 0.05937604214554111,
+      "lightgbm_importance": 148.4150044262642
+    },
+    {
+      "rank": 66,
+      "feature": "curvature_to_lanes_ratio",
+      "importance": 0.0004524383097011185,
+      "catboost_importance": 0.07295435683125627,
+      "lightgbm_importance": 71.42803627711419
+    },
+    {
+      "rank": 67,
+      "feature": "pca_1_pow3",
+      "importance": 0.0004516435193947125,
+      "catboost_importance": 0.044213901382676224,
+      "lightgbm_importance": 187.864738858083
+    },
+    {
+      "rank": 68,
+      "feature": "poor_vis_x_speed",
+      "importance": 0.0004485204746178624,
+      "catboost_importance": 0.029446611226206315,
+      "lightgbm_importance": 245.47988555231132
+    },
+    {
+      "rank": 69,
+      "feature": "accident_intensity_quantile",
+      "importance": 0.0004067074206712731,
+      "catboost_importance": 0.015601238734412668,
+      "lightgbm_importance": 267.81582845351113
+    },
+    {
+      "rank": 70,
+      "feature": "pca_3",
+      "importance": 0.0004033629295215093,
+      "catboost_importance": 0.06137891942116557,
+      "lightgbm_importance": 78.59948257965152
+    },
+    {
+      "rank": 71,
+      "feature": "accident_family_max",
+      "importance": 0.00039415578923460197,
+      "catboost_importance": 0.0720815031423651,
+      "lightgbm_importance": 27.497073603561148
+    },
+    {
+      "rank": 72,
+      "feature": "total_risk_factors_x_pca_1",
+      "importance": 0.00038515462887872586,
+      "catboost_importance": 0.04575092601238629,
+      "lightgbm_importance": 127.42999360129761
+    },
+    {
+      "rank": 73,
+      "feature": "curv_bin_very_high",
+      "importance": 0.0003837908776612244,
+      "catboost_importance": 0.07675817553224493,
+      "lightgbm_importance": 0.0
+    },
+    {
+      "rank": 74,
+      "feature": "curvature_x_accident_intensity",
+      "importance": 0.0003795178984108309,
+      "catboost_importance": 0.019931060733156564,
+      "lightgbm_importance": 228.0235864923452
+    },
+    {
+      "rank": 75,
+      "feature": "pca_2_pow2",
+      "importance": 0.00034211578443747135,
+      "catboost_importance": 0.05002592670046137,
+      "lightgbm_importance": 74.94753653295629
+    },
+    {
+      "rank": 76,
+      "feature": "accident_intensity_pow2",
+      "importance": 0.0003317982311466651,
+      "catboost_importance": 0.007835859001613618,
+      "lightgbm_importance": 238.41706804255955
+    },
+    {
+      "rank": 77,
+      "feature": "poor_visibility",
+      "importance": 0.0003156788625199186,
+      "catboost_importance": 6.607522238879123e-05,
+      "lightgbm_importance": 256.93641885649413
+    },
+    {
+      "rank": 78,
+      "feature": "accidents_per_density",
+      "importance": 0.00029319681828078565,
+      "catboost_importance": 0.05276187092462023,
+      "lightgbm_importance": 23.944017482019262
+    },
+    {
+      "rank": 79,
+      "feature": "accidents_to_curvature_ratio",
+      "importance": 0.00029301525796529007,
+      "catboost_importance": 0.03284733602403044,
+      "lightgbm_importance": 104.92489434103481
+    },
+    {
+      "rank": 80,
+      "feature": "safety_infrastructure_x_speed_limit",
+      "importance": 0.000292694917367156,
+      "catboost_importance": 0.01973869618533042,
+      "lightgbm_importance": 158.06650889565935
+    },
+    {
+      "rank": 81,
+      "feature": "road_weather_encoded",
+      "importance": 0.00024504603233081214,
+      "catboost_importance": 0.040221473985536924,
+      "lightgbm_importance": 35.79989457313786
+    },
+    {
+      "rank": 82,
+      "feature": "safe_infrastructure",
+      "importance": 0.00022968794208255429,
+      "catboost_importance": 0.014538088719703619,
+      "lightgbm_importance": 127.91681827744469
+    },
+    {
+      "rank": 83,
+      "feature": "risk_to_infrastructure",
+      "importance": 0.00019995053950094745,
+      "catboost_importance": 0.02669932535177503,
+      "lightgbm_importance": 54.14464027856593
+    },
+    {
+      "rank": 84,
+      "feature": "pca_2",
+      "importance": 0.0001921821952083457,
+      "catboost_importance": 0.024898947637897892,
+      "lightgbm_importance": 55.149694885258214
+    },
+    {
+      "rank": 85,
+      "feature": "accident_family_std",
+      "importance": 0.00019197779597256243,
+      "catboost_importance": 0.02125283467633977,
+      "lightgbm_importance": 69.83686995479002
+    },
+    {
+      "rank": 86,
+      "feature": "road_x_speed",
+      "importance": 0.00018848031805492274,
+      "catboost_importance": 0.03148019074817543,
+      "lightgbm_importance": 25.32252701811376
+    },
+    {
+      "rank": 87,
+      "feature": "road_signs_present_x_unsafe_conditions",
+      "importance": 0.00017316440110747957,
+      "catboost_importance": 0.0022691459035152632,
+      "lightgbm_importance": 131.8449644582579
+    },
+    {
+      "rank": 88,
+      "feature": "poor_visibility_x_speed_limit",
+      "importance": 0.00016569203672742538,
+      "catboost_importance": 0.009992649082509252,
+      "lightgbm_importance": 94.29232255951501
+    },
+    {
+      "rank": 89,
+      "feature": "high_traffic_zone_x_speed_limit",
+      "importance": 0.0001649279443093404,
+      "catboost_importance": 0.026338857402324504,
+      "lightgbm_importance": 27.07777985188295
+    },
+    {
+      "rank": 90,
+      "feature": "adverse_conditions",
+      "importance": 0.00016468838939459872,
+      "catboost_importance": 0.01253432961467491,
+      "lightgbm_importance": 83.12015851750039
+    },
+    {
+      "rank": 91,
+      "feature": "risk_to_safety_ratio",
+      "importance": 0.0001596065460709424,
+      "catboost_importance": 0.021024576553561724,
+      "lightgbm_importance": 44.391642702161334
+    },
+    {
+      "rank": 92,
+      "feature": "curv_bin_very_low",
+      "importance": 0.0001295972683306984,
+      "catboost_importance": 0.0006268100528125609,
+      "lightgbm_importance": 103.03840914927423
+    },
+    {
+      "rank": 93,
+      "feature": "lane_density_score",
+      "importance": 0.00010837326774646697,
+      "catboost_importance": 0.01520834250265449,
+      "lightgbm_importance": 26.342774345619546
+    },
+    {
+      "rank": 94,
+      "feature": "peak_time",
+      "importance": 8.272535539899483e-05,
+      "catboost_importance": 0.0158642446708513,
+      "lightgbm_importance": 2.773583938367665
+    },
+    {
+      "rank": 95,
+      "feature": "school_season",
+      "importance": 7.643781030745967e-05,
+      "catboost_importance": 0.01410730131793746,
+      "lightgbm_importance": 4.808203968568705
+    },
+    {
+      "rank": 96,
+      "feature": "high_traffic_zone",
+      "importance": 7.116003879368603e-05,
+      "catboost_importance": 0.011630165233509298,
+      "lightgbm_importance": 10.599513390334323
+    },
+    {
+      "rank": 97,
+      "feature": "school_season_x_peak_time",
+      "importance": 6.77397074465087e-05,
+      "catboost_importance": 0.012032872604311984,
+      "lightgbm_importance": 6.17216175768408
+    },
+    {
+      "rank": 98,
+      "feature": "is_single_lane_x_curvature",
+      "importance": 6.741392913009841e-05,
+      "catboost_importance": 0.011639831985851461,
+      "lightgbm_importance": 7.507915531867184
+    },
+    {
+      "rank": 99,
+      "feature": "curv_bin_high",
+      "importance": 6.206064730639742e-05,
+      "catboost_importance": 0.0028016201742251433,
+      "lightgbm_importance": 39.151762986555696
+    },
+    {
+      "rank": 100,
+      "feature": "curv_bin_medium",
+      "importance": 5.345561330761824e-05,
+      "catboost_importance": 0.0030307543870804737,
+      "lightgbm_importance": 31.207183106802404
+    },
+    {
+      "rank": 101,
+      "feature": "peak_time_x_high_traffic_zone",
+      "importance": 4.218755395581682e-05,
+      "catboost_importance": 0.007820509945853399,
+      "lightgbm_importance": 2.513568234164268
+    },
+    {
+      "rank": 102,
+      "feature": "curv_bin_low",
+      "importance": 3.3769554494418244e-05,
+      "catboost_importance": 0.004949602470403315,
+      "lightgbm_importance": 7.350479962769896
+    },
+    {
+      "rank": 103,
+      "feature": "accidents_per_lane",
+      "importance": 3.3486617077444804e-05,
+      "catboost_importance": 0.004958425843676283,
+      "lightgbm_importance": 7.084006014250917
+    },
+    {
+      "rank": 104,
+      "feature": "clear_high_speed",
+      "importance": 3.0117277935070093e-05,
+      "catboost_importance": 0.003835951703757929,
+      "lightgbm_importance": 8.911560356616974
+    },
+    {
+      "rank": 105,
+      "feature": "accidents_per_lane_quantile",
+      "importance": 2.9340597643992292e-05,
+      "catboost_importance": 0.0051671917831454485,
+      "lightgbm_importance": 2.8554737474187277
+    },
+    {
+      "rank": 106,
+      "feature": "intensity_bin",
+      "importance": 2.500524587817277e-05,
+      "catboost_importance": 0.004982908105249066,
+      "lightgbm_importance": 0.0739039801992476
+    },
+    {
+      "rank": 107,
+      "feature": "speed_cat_low",
+      "importance": 1.3466558214382063e-05,
+      "catboost_importance": 0.0004868466456446742,
+      "lightgbm_importance": 8.988805070519447
+    },
+    {
+      "rank": 108,
+      "feature": "safety_infrastructure",
+      "importance": 1.1970796559893e-05,
+      "catboost_importance": 0.0020463715312601864,
+      "lightgbm_importance": 1.4168348787352443
+    },
+    {
+      "rank": 109,
+      "feature": "is_single_lane",
+      "importance": 7.091188611417499e-07,
+      "catboost_importance": 0.00010493183236189243,
+      "lightgbm_importance": 0.1502921897917986
+    }
+  ]
+}
